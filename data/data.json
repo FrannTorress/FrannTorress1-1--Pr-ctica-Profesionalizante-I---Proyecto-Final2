@@ -1,0 +1,15 @@
+{
+    "home": {
+        "title": "Bienvenidos a Finebanditt",
+        "description": "Explora nuestra colección de ropa moderna. Aquí encontrarás los productos más destacados."
+    },
+    "contacto": {
+        "title": "Contáctanos",
+        "description": "Por favor, completa el formulario para contactarnos:",
+        "form": {
+            "name": "Nombre",
+            "email": "Correo electrónico",
+            "message": "Mensaje"
+        }
+    }
+}

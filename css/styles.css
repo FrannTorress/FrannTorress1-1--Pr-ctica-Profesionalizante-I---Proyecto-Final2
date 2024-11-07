@@ -1,0 +1,223 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #333; 
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 70px;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+    margin-right: auto; 
+}
+
+header nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#searchBox {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-left: auto; 
+}
+
+#content {
+    padding: 100px 2em 2em;
+    min-height: calc(100vh - 100px); 
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.product {
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: #222; 
+    text-align: left;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #333; 
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+footer .contacto {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer .contacto h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+footer .contacto p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .redes-sociales .social-icon {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+footer .redes-sociales .social-icon i {
+    margin-right: 6px;
+    font-size: 18px;
+}
+
+footer .redes-sociales .social-icon:hover {
+    color: #888; 
+}
+
+.main-content {
+    min-height: 80vh;
+}
+
+.contact-form {
+    margin-bottom: 50px;
+}
+
+header .carrito {
+    margin-left: 20px;
+}
+
+header .carrito button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .carrito button:hover {
+    background-color: #777;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    font-size: 1em;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.product-grid .product {
+    flex: 1 1 30%;
+    max-width: 300px;
+}
+
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .product-grid .product {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid .product {
+        flex: 1 1 100%;
+    }
+}

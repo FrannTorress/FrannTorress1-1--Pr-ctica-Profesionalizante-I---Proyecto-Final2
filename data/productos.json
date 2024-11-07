@@ -1,0 +1,52 @@
+[
+    {
+        "nombre": "Pantalón Trifolio Delineado Adidas",
+        "descripcion": "Pantalón cómodo y estilizado.",
+        "precio": 150000,
+        "imagen": "assets/Pantalon.jpg"
+    },
+    {
+        "nombre": "Campera Grey Leo Adidas",
+        "descripcion": "Campera elegante para el invierno.",
+        "precio": 260000,
+        "imagen": "assets/Campera.jpg"
+    },
+    {
+        "nombre": "Zapatillas Nike Air Vapormax 360 'Silver'",
+        "descripcion": "Calzado moderno y cómodo.",
+        "precio": 100000,
+        "imagen": "assets/Zapatillas.png"
+    },
+
+    {
+      "nombre": "Campera Adidas River",
+      "descripcion": "Campera ideal para bajas temperaturas.",
+      "precio": 180000,
+      "imagen": "assets/campera river.avif"
+    },
+    {
+      "nombre": "Zapatillas Urbanas adidas Superstar",
+      "descripcion": "Zapatillas ligeras y cómodas.",
+      "precio": 200000,
+      "imagen": "assets/zapatillas adidas.jpeg"
+    },
+    
+        {
+            "nombre": "Gorra Nike",
+            "descripcion": "Gorra cómoda y estilizada.",
+            "precio": 80000,
+            "imagen": "assets/Gorra nike.jpeg"
+        },
+        {
+            "nombre": "Zapatillas Puma Mayze",
+            "descripcion": "Zapatillas modernas y confortables.",
+            "precio": 180000,
+            "imagen": "assets/puma.webp"
+        },
+        {
+            "nombre": "Pantalón Nike Margarita",
+            "descripcion": "Pantalón ideal para el invierno.",
+            "precio": 120000,
+            "imagen": "assets/nike margarita.jpeg"
+        }
+  ]
